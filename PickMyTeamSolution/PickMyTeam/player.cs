@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -32,68 +32,18 @@ namespace PickMyTeam
             PlayersButton4.Visible = false;
             PlayersButton5.Visible = false;
             PlayersButton6.Visible = false;
+
             randomButton.Visible = true;
 
-
-            playerNameTextBox1.Visible = true;
-            playerNameTextBox2.Visible = true;
-            playerNameTextBox3.Visible = true;
-            playerNameTextBox4.Visible = true;
-            playerNameTextBox5.Visible = true;
-            playerNameTextBox6.Visible = true;
-            playerNameTextBox7.Visible = true;
-            playerNameTextBox8.Visible = true;
-            playerNameTextBox9.Visible = true;
-            playerNameTextBox10.Visible = true;
-            playerNameTextBox11.Visible = true;
-            playerNameTextBox12.Visible = true;
-            
-
-            playerComboBox1.Visible = true;
-            playerComboBox2.Visible = true;
-            playerComboBox3.Visible = true;
-            playerComboBox4.Visible = true;
-            playerComboBox5.Visible = true;
-            playerComboBox6.Visible = true;
-            playerComboBox7.Visible = true;
-            playerComboBox8.Visible = true;
-            playerComboBox9.Visible = true;
-            playerComboBox10.Visible = true;
-            playerComboBox11.Visible = true;
-            playerComboBox12.Visible = true;
-
-
-
+            playerTextBoxVisabillity(true);
+            playerComboBoxVisabillity(true);
 
         }
 
         private void randomButton_Click(object sender, EventArgs e)
         {
-            playerNameTextBox1.Visible = false;
-            playerNameTextBox2.Visible = false;
-            playerNameTextBox3.Visible = false;
-            playerNameTextBox4.Visible = false;
-            playerNameTextBox5.Visible = false;
-            playerNameTextBox6.Visible = false;
-            playerNameTextBox7.Visible = false;
-            playerNameTextBox8.Visible = false;
-            playerNameTextBox9.Visible = false;
-            playerNameTextBox10.Visible = false;
-            playerNameTextBox11.Visible = false;
-            playerNameTextBox12.Visible = false;
-
-            playerComboBox1.Visible = false;
-            playerComboBox2.Visible = false;
-            playerComboBox3.Visible = false;
-            playerComboBox4.Visible = false;
-            playerComboBox5.Visible = false;
-            playerComboBox6.Visible = false;
-            playerComboBox7.Visible = false;
-            playerComboBox8.Visible = false;
-            playerComboBox9.Visible = false;
-            playerComboBox10.Visible = false;
-            playerComboBox11.Visible = false;
-            playerComboBox12.Visible = false;
+            playerTextBoxVisabillity(false);
+            playerComboBoxVisabillity(false);
 
             player player1 = new player(playerNameTextBox1.Text, playerComboBox1.SelectedIndex + 1);
             player player2 = new player(playerNameTextBox2.Text, playerComboBox2.SelectedIndex + 1);
@@ -126,6 +76,7 @@ namespace PickMyTeam
             team1Label.Text = "TEAM 1";
             team2Label.Text = "TEAM 2";
             team3Label.Text = "TEAM 3";
+
             playerLabel1.Text = arr4[0].name;
             playerLabel2.Text = arr4[5].name;
             playerLabel3.Text = arr4[8].name;
@@ -138,33 +89,15 @@ namespace PickMyTeam
             playerLabel10.Text = arr4[3].name;
             playerLabel11.Text = arr4[6].name;
             playerLabel12.Text = arr4[9].name;
-            playerLabel1.Visible = true;
-            playerLabel2.Visible = true;
-            playerLabel3.Visible = true;
-            playerLabel4.Visible = true;
-            playerLabel5.Visible = true;
-            playerLabel6.Visible = true;
-            playerLabel7.Visible = true;
-            playerLabel8.Visible = true;
-            playerLabel9.Visible = true;
-            playerLabel10.Visible = true;
-            playerLabel11.Visible = true;
-            playerLabel12.Visible = true;
+
+            playerLabelVisabillity(true);
+
             team1Label.Visible = true;
             team2Label.Visible = true;
             team3Label.Visible = true;
-            team1PictureBox1.Visible = true;
-            team1PictureBox2.Visible = true;
-            team1PictureBox3.Visible = true;
-            team1PictureBox4.Visible = true;
-            team2PictureBox1.Visible = true;
-            team2PictureBox2.Visible = true;
-            team2PictureBox3.Visible = true;
-            team2PictureBox4.Visible = true;
-            team3PictureBox1.Visible = true;
-            team3PictureBox2.Visible = true;
-            team3PictureBox3.Visible = true;
-            team3PictureBox4.Visible = true;
+
+            teamPicBoxVisabillity(true);
+
             randomButton.Visible = false;
             randomBottun2.Visible = true;
         }
@@ -247,5 +180,68 @@ namespace PickMyTeam
             this.Hide();
         }
 
+        private void playerTextBoxVisabillity(Boolean decision)
+        {
+            playerNameTextBox1.Visible = decision;
+            playerNameTextBox2.Visible = decision;
+            playerNameTextBox3.Visible = decision;
+            playerNameTextBox4.Visible = decision;
+            playerNameTextBox5.Visible = decision;
+            playerNameTextBox6.Visible = decision;
+            playerNameTextBox7.Visible = decision;
+            playerNameTextBox8.Visible = decision;
+            playerNameTextBox9.Visible = decision;
+            playerNameTextBox10.Visible = decision;
+            playerNameTextBox11.Visible = decision;
+            playerNameTextBox12.Visible = decision;
+        }
+
+        private void playerComboBoxVisabillity(Boolean Cdecision)
+        {
+            playerComboBox1.Visible = Cdecision;
+            playerComboBox2.Visible = Cdecision;
+            playerComboBox3.Visible = Cdecision;
+            playerComboBox4.Visible = Cdecision;
+            playerComboBox5.Visible = Cdecision;
+            playerComboBox6.Visible = Cdecision;
+            playerComboBox7.Visible = Cdecision;
+            playerComboBox8.Visible = Cdecision;
+            playerComboBox9.Visible = Cdecision;
+            playerComboBox10.Visible = Cdecision;
+            playerComboBox11.Visible = Cdecision;
+            playerComboBox12.Visible = Cdecision;
+        }
+
+        private void playerLabelVisabillity(Boolean Ldecision)
+        {
+            playerLabel1.Visible = Ldecision;
+            playerLabel2.Visible = Ldecision;
+            playerLabel3.Visible = Ldecision;
+            playerLabel4.Visible = Ldecision;
+            playerLabel5.Visible = Ldecision;
+            playerLabel6.Visible = Ldecision;
+            playerLabel7.Visible = Ldecision;
+            playerLabel8.Visible = Ldecision;
+            playerLabel9.Visible = Ldecision;
+            playerLabel10.Visible = Ldecision;
+            playerLabel11.Visible = Ldecision;
+            playerLabel12.Visible = Ldecision;
+        }
+
+        private void teamPicBoxVisabillity(Boolean Pdecision)
+        {
+            team1PictureBox1.Visible = Pdecision;
+            team1PictureBox2.Visible = Pdecision;
+            team1PictureBox3.Visible = Pdecision;
+            team1PictureBox4.Visible = Pdecision;
+            team2PictureBox1.Visible = Pdecision;
+            team2PictureBox2.Visible = Pdecision;
+            team2PictureBox3.Visible = Pdecision;
+            team2PictureBox4.Visible = Pdecision;
+            team3PictureBox1.Visible = Pdecision;
+            team3PictureBox2.Visible = Pdecision;
+            team3PictureBox3.Visible = Pdecision;
+            team3PictureBox4.Visible = Pdecision;
+        }
     }
 }
