@@ -1,0 +1,12 @@
+C:\Users\Shai Gotlieb\source\repos\PickMyTeamSolution\PickMyTeam\bin\Debug\PickMyTeam.exe
+C:\Users\Shai Gotlieb\source\repos\PickMyTeamSolution\PickMyTeam\bin\Debug\PickMyTeam.exe.config
+C:\Users\Shai Gotlieb\source\repos\PickMyTeamSolution\PickMyTeam\obj\Debug\PickMyTeam._5X5.resources
+C:\Users\Shai Gotlieb\source\repos\PickMyTeamSolution\PickMyTeam\obj\Debug\PickMyTeam._6X6.resources
+C:\Users\Shai Gotlieb\source\repos\PickMyTeamSolution\PickMyTeam\obj\Debug\PickMyTeam.player.resources
+C:\Users\Shai Gotlieb\source\repos\PickMyTeamSolution\PickMyTeam\obj\Debug\PickMyTeam.Properties.Resources.resources
+C:\Users\Shai Gotlieb\source\repos\PickMyTeamSolution\PickMyTeam\obj\Debug\PickMyTeam.csproj.GenerateResource.Cache
+C:\Users\Shai Gotlieb\source\repos\PickMyTeamSolution\PickMyTeam\obj\Debug\PickMyTeam.csproj.CoreCompileInputs.cache
+C:\Users\Shai Gotlieb\source\repos\PickMyTeamSolution\PickMyTeam\obj\Debug\PickMyTeam.exe
+C:\Users\Shai Gotlieb\source\repos\PickMyTeamSolution\PickMyTeam\obj\Debug\PickMyTeam.pdb
+C:\Users\Shai Gotlieb\source\repos\PickMyTeamSolution\PickMyTeam\bin\Debug\PickMyTeam.pdb
+C:\Users\Shai Gotlieb\source\repos\PickMyTeamSolution\PickMyTeam\obj\Debug\PickMyTeam.csprojResolveAssemblyReference.cache
